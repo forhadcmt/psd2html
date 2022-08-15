@@ -59,9 +59,10 @@ body {
     padding: 3%;
 }
 
-#teamDiv h2, p {
+.centertxt {
     text-align: center;
     line-height: 40px;
+    color: black;
 }
 
 .teamMember{
