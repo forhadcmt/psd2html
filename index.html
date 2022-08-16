@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <title>Dummy HTML Page</title>
 </head>
@@ -11,21 +12,24 @@
     <div class="wrapper">
         <nav id = "main_nav">
             <ul>
-                <li><a class ="main_nav_anchor" href="#">Logo</a></li>
+                <li><a class ="main_nav_anchor" href="#"><i class="fa-solid fa-house"></i> Logo</a></li>
                 <li><a class ="main_nav_anchor" href="#">Team</a></li>
                 <li><a class ="main_nav_anchor" href="#">Work</a></li>
                 <li><a class ="main_nav_anchor" href="#">Price</a></li>
                 <li><a class ="main_nav_anchor" href="#">Content</a></li>
-                <li>
-                    <a class ="main_nav_anchor" href="#">Dropdown</a>
-                    <ul>
-                        <li><a class ="sub_nav_anchor" href="#">One</a></li>
-                        <li><a class ="sub_nav_anchor" href="#">Two</a></li>
-                        <li><a class ="sub_nav_anchor" href="#">Three</a></li>
-                    </ul>
+                <li><a class ="main_nav_anchor" href="#">Dropdown <i class="fa-solid fa-caret-down"></i></a>
+                    <div class="sub-menu">
+                        <ul>
+                            <li><a href="#">Sub menu</a></li>
+                            <li><a href="#">Sub menu</a></li>
+                            <li><a href="#">Sub menu</a></li>
+                            <li><a href="#">Sub menu</a></li>
+                        </ul>
+                    </div>
                 </li>
             </ul>
         </nav>
+
         <img id="slideImg" src="images/sailboat.jpg" alt="Main Theme Image" />
 
         <div id="teamDiv">
