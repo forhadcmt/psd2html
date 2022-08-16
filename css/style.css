@@ -7,9 +7,6 @@
     font-family: sans-serif;
 }
 
-body {
-    background-color: blue;
-}
 
 .wrapper {
     width: 100%;
@@ -89,6 +86,8 @@ body {
 
 .teamMember p {
     font-size: 14px;
+    text-align: center;
+    color: black;
 }
 
 #ourWork {
@@ -139,3 +138,192 @@ body {
 #ourWorkNoBackground {
     background-color: #343535;
 }
+
+#pricingDiv {
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    padding: 50px 0;
+}
+
+.sectionTitle, .sectionDescription {
+    text-align: center;
+    color: black;
+    margin-bottom: 25px;
+}
+
+#pricingDiv {
+    width: 100%;
+    height: 640px;
+}
+
+.pricePlanDiv {
+    float: left;
+    border: 1px;
+    border-color: #D9D6D2;
+    border-style: solid;
+    width: 32%;
+    height: 400px;
+    margin-left: 1%;
+}
+
+.pricePlanDiv p {
+    line-height: 12px;
+    color: grey;
+    text-align: center;
+}
+
+.pricePlanDiv ul{
+    margin: 0;
+    padding: 0;
+}
+
+.pricePlanDiv ul li {
+    text-align: center;
+    border-top: 1px;
+    border-bottom: 1px;
+    border-left: 0;
+    border-right: 0;
+    border-style: solid;
+    border-color: #D9D6D2;
+    line-height: 45px;
+    font-size:  12px;
+}
+
+.pricePlanDiv ul li:nth-child(1) {
+    background-color: black;
+    height: 70px;
+    color: white;
+    padding-top: 15px;
+    border-style: none;
+}
+
+.pricePlanDiv ul li:nth-child(1):hover {
+    background-color: #666460;
+}
+
+.pricePlanDiv ul li:nth-child(7) {
+    border-bottom: 0;
+    background-color: #F1F0EE;
+    line-height: 65px;
+}
+
+.pricePlanDiv ul li a {
+    background-color: #009683;
+    color: white;
+    width: 80px;
+    height: 50px;
+    padding: 10px 30px;
+}
+
+
+
+#contactSection {
+    width: 100%;
+    height: 300px;
+    background-color: #F1F0EE;
+    padding: 40px 10px;
+}
+
+.contactContent {
+    float: left;
+    background-color: red;
+}
+
+.contactConten h4 {
+    text-decoration: underline;
+    text-decoration-color: #343535;
+}
+
+#leftContent {
+    width: 40%;
+    background-color:#F1F0EE;
+}
+
+#leftContent ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+#leftContent li {
+    line-height: 35px;
+    font-size: 13px;
+}
+
+#leftContent h4 {
+    font-size: 18px;
+    text-decoration: underline;
+    text-decoration-color: #343535;
+    text-decoration-thickness: 5px;
+    border: none;
+}
+
+#leftContent h5 {
+    font-size: 16px;
+    font-weight: normal;
+} 
+
+#leftContent h4, h5 {
+    line-height: 50px;
+}
+
+#rightContent {
+    width: 56%;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+.inutField {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-style: solid;
+    border-color: gray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-width: 1px;
+    line-height: 30px;
+    
+}
+
+.checkbox, .submit {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+#labelText {
+    font-size: 13px;
+    padding-left: 6px;
+}
+.submit {
+    padding: 5px;
+    background-color: black;
+    color:white;
+    margin-left: 590px;
+}
+
+#footer {
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    padding-top: 50px;
+}
+
+#footer h4, p, a {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+#footer h4 {
+    margin-bottom: 15px;
+}
+
+#footer a {
+    text-decoration: underline;
+    text-decoration-color: wheat;
+    text-decoration-thickness: 1px;
+}
+
+
