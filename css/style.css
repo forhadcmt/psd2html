@@ -34,7 +34,31 @@
     
 }
 
-.main_nav_anchor {
+#main_nav ul ul {
+    background: #009683;
+    visibility: hidden;
+}
+
+#main_nav ul li:hover > ul,
+#main_nav ul li:focus-within > ul,
+#main_nav ul ul li ul:hover,
+#main_nav ul ul li ul:focus
+{
+    visibility: visible;
+    opacity: 1;
+    display: block;
+    width: 180px;
+    background-color: black;
+}
+
+#main_nav ul ul li {
+    width: 180px;
+}
+#main_nav ul ul li:hover {
+    background-color: #343535;
+}
+
+.main_nav_anchor, .sub_nav_anchor {
     font-size: 17px;
     color: white;
     height: 100%;
